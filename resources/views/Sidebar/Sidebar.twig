@@ -2,13 +2,13 @@
 {% set showSidebarCategories = config('Blog.sidebar.categories.display') %}
 
 
-{% if not isSearchPage %}
+{# if not isSearchPage #}
     <div class="blog-sidebar-section">
         <client-only>
             <blog-search></blog-search>
         </client-only>
     </div>
-{% endif %}
+{# endif #}
 
 {% if showSidebarCategories == "true" %}
     <div class="blog-sidebar-section">
