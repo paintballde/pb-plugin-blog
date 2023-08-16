@@ -1,1 +1,1 @@
-# plugin-blog
+# Customized Plenty Markets Blog plugin
